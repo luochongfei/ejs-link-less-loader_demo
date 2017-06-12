@@ -1,17 +1,23 @@
 # ejs-link-less-loader_demo
 
-> In the use of ejs at the same time through the link directly into the less and compiled into the line style insert（能在使用ejs的同时通过link直接引入less并且编译成行内style插入）  
+> In the use of ejs at the same time through the link directly into the less and compiled into the line style insert（能在使用ejs的同时通过link直接引入less并且编译成行内style插入） 
 
-## Run this example(运行本示例)
+### 源码（Source code）：[https://github.com/luochongfei/ejs-link-less-loader](https://github.com/luochongfei/ejs-link-less-loader) 
+
+
+### Run this example(运行本示例)
 ```bash
-$ npm install
+$ git clone git@github.com:luochongfei/ejs-link-less-loader_demo.git
 
+$ cd ejs-link-less-loader_demo
+
+$ npm install
 
 $ webpack
 ```
 
 
-## source(源代码)
+### source(源)
 
 > ./public/head.ejs
 ```html
@@ -53,7 +59,7 @@ body{
 }
 ```   
    
-## result(编译结果)
+### result(编译结果)
 
 ```html
 <!DOCTYPE html>
